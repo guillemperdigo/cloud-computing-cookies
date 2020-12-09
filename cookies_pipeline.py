@@ -82,3 +82,4 @@ model_pipeline.fit(train_X, train_y)
 filename = 'Models/model_pipeline1.sav'
 pickle.dump(model_pipeline, open(filename, 'wb'))
 
+print("The model has been trained!")
